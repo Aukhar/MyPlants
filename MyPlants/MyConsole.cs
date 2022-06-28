@@ -42,9 +42,9 @@ namespace MyPlants.View
         }
         private void AddPlants()
         {
-            string NameOfDrink = GetStringConsole("Введите название растения");
-            string TypeOfDrink = GetStringConsole("Укажите тип растения : (к примеру: роза, кустарник и тд) ");
-            records.add(NameOfDrink, TypeOfDrink);
+            string NameOfPlants = GetStringConsole("Введите название растения");
+            string TypeOfPlants = GetStringConsole("Укажите тип растения : (к примеру: роза, кустарник и тд) ");
+            records.add(NameOfPlants, TypeOfPlants);
             Console.WriteLine("Растение добавлено :)");
             GetPlants();
         }
